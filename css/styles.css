@@ -1,3 +1,4 @@
+/*Navigation*/
 .bottom-nav {
     position: relative;
     z-index: 0;
@@ -18,7 +19,56 @@
 }
 
 .bottom-nav ul button {
-    background: #000A2F; /* Cambio el color de fondo del botón a transparente */
+    background: #000A2F;
     border: none;
     padding: 5px 10px;
+}
+
+/*header*/
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+/*Logo*/
+.header img {
+    position: relative;
+    display: block;
+    width: auto;
+    height: 40px;
+    padding: 5px 10px;
+}
+
+/*Btn header*/
+.header .button-left {
+    color: #fff;
+    height: 35px;
+    width: 98px;
+    background: #eca050;
+    font-weight: bold;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: Arimo,sans-serif;
+    text-transform: uppercase;
+    line-height: 14px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+
+.header .button-right {
+    background-color: #fff;
+    color: #565656;
+    width: 90px;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 2px;
+    font-size: .9rem;
+    border-style: none;
+    border: 1px solid #a8aab3;
+    margin-left: 30px;
+}
+
+/*content*/
+.content {
+    background-color: #FFF;
 }
