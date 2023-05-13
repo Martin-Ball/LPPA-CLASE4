@@ -124,12 +124,6 @@
     display: block;
 }
 
-/*footer*/
-.footer {
-    background-color: #000a2f; 
-    color: white;
-}
-
 .content-new h1 {
     font-size: 19px;
     font-family: "Noto Serif",serif;
@@ -145,4 +139,38 @@
     line-height: 30px;
     color: #292933;
     margin-bottom: 34px;
+}
+
+/*footer*/
+.footer {
+    background-color: #000a2f; 
+    color: white;
+    padding: 30px 0;
+    padding-bottom: 50px;
+}
+
+.footer img {
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    display: block;
+    height: 100%;
+}
+
+.footer .col{
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Arimo",sans-serif;
+    color: #fff;
+    overflow: hidden;
+    float:left;
+    padding-right: 40px;
+}
+
+.footer .col-2 {
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Arimo",sans-serif;
+    color: #fff;
+    overflow: hidden;
 }
