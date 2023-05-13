@@ -1,0 +1,24 @@
+.bottom-nav {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    height: 50px;
+    padding: 0 30px;
+    transition: opacity 0.1s linear,transform 0.5s ease;
+    background: #000A2F;
+}
+
+.bottom-nav ul a {
+    font-family: "Noto Serif",serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.bottom-nav ul button {
+    background: #000A2F; /* Cambio el color de fondo del botón a transparente */
+    border: none;
+    padding: 5px 10px;
+}
